@@ -24,7 +24,7 @@ We made a small client-server app using UDP. The client sends "ping" and the ser
 
 Each screenshot shows a different part of the project:
 - **server-log-drop.png**  
-  Server dropping "pong" messages to simulate packet loss (positions 2, 3, 5).
+  Server dropping "pong" messages as part of the loss simulation (positions vary per run).
 - **wireshark-udp.png**  
   Captured UDP traffic between client and server using Wireshark with filters.
 - **ping-comparison.png**  
