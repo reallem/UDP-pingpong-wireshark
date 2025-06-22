@@ -20,8 +20,15 @@ We made a small client-server app using UDP. The client sends "ping" and the ser
 
 ---
 
-## Screenshots:
-📸 Wireshark + server log + ping result  
+## 📸 Screenshots: Wireshark + Server Log + Ping Result
+
+Each screenshot shows a different part of the project:
+- **server-log-drop.png**  
+  Server dropping "pong" messages to simulate packet loss (positions 2, 3, 5).
+- **wireshark-udp.png**  
+  Captured UDP traffic between client and server using Wireshark with filters.
+- **ping-comparison.png**  
+  Comparison between our custom UDP Ping Pong app and the standard system ping.
 (see images folder)
 
 ---
